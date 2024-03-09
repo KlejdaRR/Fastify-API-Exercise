@@ -1,4 +1,4 @@
-import {buildServer} from "./src/server.js";
+import buildServer from "./src/server.js";
 
 const fastify = await buildServer();
 await fastify.listen({

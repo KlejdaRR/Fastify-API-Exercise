@@ -5,8 +5,8 @@ export default {
     return jobOfferRepository.getJobOfferById(id);
   },
 
-  async searchJobOffers(query) {
-    return jobOfferRepository.searchJobOffers(query);
+  async searchJobOffers(position, page, limit) {
+    return jobOfferRepository.searchJobOffers(position, page, limit);
   },
 
   async getJobOfferToUpdate(id) {
